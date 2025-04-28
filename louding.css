@@ -273,3 +273,817 @@ margin-top: 3%;
 
     }
 } */
+
+
+#women {
+
+    padding: 2px;
+    background-color: white;
+    position: relative;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15%;
+
+}
+
+
+.place-women {
+    line-height: 1.5;
+    width: 70%;
+    margin-right: 5%;
+
+    padding: 2%;
+    background-color: #75392c;
+    color: white;
+}
+
+
+.paragraphs {
+    box-shadow: 15px 2px 15px 7px #75392c;
+    color: #75392c;
+    line-height: 1.5;
+    width: 93%;
+    background-color: white;
+    margin-top: -12%;
+    position: relative;
+    padding: 2%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+
+}
+
+
+
+.first-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/a7b5e7b0e7acac359f40ca043a85046c.jpg);
+    height: 100vh;
+    width: 50%;
+    background-size: cover;
+    color: white;
+
+    h2 {
+        text-align: center;
+        align-items: center;
+        font-size: 80px;
+        margin-top: 6%;
+        padding-top: 25%;
+    }
+
+    p {
+        padding-top: 16%;
+        padding-left: 15%;
+        text-align: center;
+        width: 60%;
+    }
+
+}
+
+#tradition {
+
+    padding: 2px;
+    margin-left: 10%;
+    position: relative;
+    gap: 5%;
+    display: flex;
+    line-height: 1.6;
+    margin: auto;
+
+
+}
+
+.cultural-beliefs {
+    line-height: 1.5;
+    width: 40%;
+    padding: 3%;
+    background-color: #75392c;
+    color: white;
+
+    align-items: center;
+
+    p {
+        margin-bottom: 3%;
+    }
+
+}
+
+.culture-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/34fd08efd7a4628f25755d354c0d8875.jpg);
+    height: 120vh;
+    width: 40%;
+    background-size: cover;
+    color: white;
+    margin-left: 5%;
+
+    h2 {
+        text-align: center;
+        align-items: center;
+        font-size: 80px;
+        margin-top: 6%;
+        padding-top: 25%;
+    }
+
+    p {
+        padding-top: 16%;
+        padding-left: 15%;
+        text-align: center;
+        width: 60%;
+    }
+}
+
+#marriage {
+
+    padding: 2px;
+    background-color: white;
+    gap: 5%;
+    margin-top: 5%;
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+
+    justify-content: space-between;
+}
+
+.marriage-text {
+    line-height: 1.4;
+    width: 60%;
+    border: 1px solid #75392c;
+    box-shadow: 15px 2px 15px 7px #75392c;
+    color: #1b1d08;
+
+
+}
+
+.early {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/6b66cd920778b916e1154a63edfc511a.jpg);
+    height: 100vh;
+    width: 50%;
+    background-size: cover;
+    color: white;
+
+
+    h2 {
+        text-align: center;
+        align-items: center;
+        font-size: 80px;
+        margin-top: 6%;
+        padding-top: 25%;
+    }
+
+    p {
+        padding-top: 16%;
+        padding-left: 15%;
+        text-align: center;
+        width: 60%;
+    }
+}
+
+
+#education {
+
+    padding: 2px;
+    position: relative;
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    gap: 5%;
+    margin-left: 10%;
+}
+
+
+p {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 1.2rem;
+
+
+}
+
+
+.education-text {
+
+    line-height: 1.5;
+    width: 80%;
+    padding: 5%;
+    background-color: #75392c;
+    color: white;
+
+    align-items: center;
+
+    p {
+        margin-bottom: 3%;
+
+    }
+}
+
+
+.education-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/7b9472450941ded58b27a69bf92605c1.jpg);
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    padding-right: 10%;
+
+
+    h2 {
+        text-align: center;
+        align-items: center;
+        font-size: 80px;
+        padding-top: 26%;
+        padding-left: 15%;
+    }
+
+    p {
+        padding-top: 16%;
+        padding-left: 15%;
+        text-align: center;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 750px) {
+
+    #women {
+        flex-direction: column-reverse;
+
+    }
+
+
+    .place-women {
+
+        line-height: 1.5;
+        width: 100%;
+        margin-right: 5%;
+    }
+
+
+
+    .first-pic {
+
+        width: 100%;
+        color: white;
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 60px;
+            margin-top: 6%;
+            padding-top: 25%;
+        }
+
+        p {
+
+            text-align: center;
+            width: 60%;
+        }
+
+    }
+
+    .paragraphs {
+        box-shadow: 15px 2px 15px 7px #75392c;
+        color: #75392c;
+        line-height: 1.5;
+        width: 93%;
+        background-color: white;
+        margin-top: -12%;
+        position: relative;
+        padding: 2%;
+        margin-bottom: 5%;
+        margin-left: 2%;
+
+    }
+
+    #tradition {
+
+        padding: 2px;
+        margin-left: 10%;
+        position: relative;
+        gap: 5%;
+        flex-direction: column;
+        line-height: 1.6;
+        margin: auto;
+
+
+    }
+
+    .cultural-beliefs {
+        line-height: 1.5;
+        width: 100%;
+        padding: 3%;
+        background-color: #75392c;
+        color: white;
+
+        align-items: center;
+
+        p {
+            margin-bottom: 3%;
+        }
+
+    }
+
+    .culture-background {
+        height: 120vh;
+        width: 100%;
+        margin-left: 0.1%;
+
+        h2 {
+            align-items: center;
+            font-size: 60px;
+        }
+
+
+    }
+
+
+    #marriage {
+
+        padding: 0.2px;
+        background-color: white;
+        gap: 5%;
+        margin-top: 5%;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-left: 0.1%;
+
+    }
+
+    .marriage-text {
+        line-height: 1.4;
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 0.2%;
+
+
+    }
+
+    .early {
+        width: 100%;
+        background-size: cover;
+        color: white;
+
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 60px;
+        }
+
+        p {
+            padding-top: 16%;
+            padding-left: 15%;
+            text-align: center;
+            width: 60%;
+        }
+    }
+
+    #education {
+
+        width: 100%;
+        margin-top: 5%;
+        flex-direction: column;
+
+    }
+
+
+    p {
+        margin-left: 0.2%;
+        margin-right: 0.2%;
+        font-size: 1.2rem;
+
+
+    }
+
+
+    .education-text {
+
+
+        width: 100%;
+        padding: 0.5%;
+        align-items: center;
+    }
+
+
+    .education-pic {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/7b9472450941ded58b27a69bf92605c1.jpg);
+        height: 60vh;
+        width: 100%;
+        background-size: cover;
+        color: white;
+        padding-left: -20%;
+
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 60px;
+            padding-top: 0.1%;
+            padding-left: -2%;
+        }
+
+        p {
+            padding-top: 16%;
+            padding-left: 0.1%;
+            text-align: center;
+        }
+    }
+
+
+}
+
+
+@media only screen and (min-width: 751px) and (max-width:999px) {
+    #women {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        padding: 0.1%;
+        margin-bottom: 12%;
+        width: 100%;
+    }
+
+
+    .place-women {
+
+        line-height: 1.5;
+        width: 90%;
+        padding-left: 10%;
+        margin-left: 5%;
+
+    }
+
+
+
+    .first-pic {
+
+        width: 100%;
+        color: white;
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 80px;
+            margin-top: 6%;
+            padding-top: 25%;
+        }
+
+        p {
+
+            text-align: center;
+            width: 60%;
+            font-size: 25px;
+        }
+
+    }
+
+    .paragraphs {
+        box-shadow: 15px 2px 15px 7px #75392c;
+        color: #75392c;
+        line-height: 1.5;
+        width: 93%;
+        background-color: white;
+        margin-top: -12%;
+        position: relative;
+        padding: 2%;
+        margin-bottom: 5%;
+        margin-left: 2%;
+
+    }
+
+    #tradition {
+
+        padding: 2px;
+        margin-left: 10%;
+        position: relative;
+        gap: 5%;
+        flex-direction: column;
+        line-height: 1.6;
+        margin: auto;
+
+
+    }
+
+    .cultural-beliefs {
+        line-height: 1.5;
+        width: 94%;
+        padding: 3%;
+        background-color: #75392c;
+        color: white;
+
+        align-items: center;
+
+        p {
+            margin-bottom: 3%;
+            padding-left: 2%;
+        }
+
+    }
+
+    .culture-background {
+        height: 120vh;
+        width: 100%;
+        margin-left: 0.1%;
+
+        h2 {
+            align-items: center;
+            font-size: 80px;
+        }
+
+
+    }
+
+
+    #marriage {
+
+        padding: 0.2px;
+        background-color: white;
+        gap: 5%;
+        margin-top: 5%;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-left: 0.1%;
+
+    }
+
+    .marriage-text {
+        line-height: 1.4;
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 0.2%;
+
+
+    }
+
+    .early {
+        width: 100%;
+        background-size: cover;
+        color: white;
+
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 60px;
+        }
+
+        p {
+            padding-top: 16%;
+            padding-left: 15%;
+            text-align: center;
+            width: 60%;
+        }
+    }
+
+    #education {
+
+        width: 100%;
+        margin-top: 5%;
+        flex-direction: column;
+        margin-right: 30%;
+
+    }
+
+
+    p {
+        margin-left: 0.2%;
+        margin-right: 0.2%;
+        font-size: 1.2rem;
+
+
+    }
+
+
+    .education-text {
+        width: 70%;
+        padding-left: 5%;
+        align-items: center;
+    }
+
+
+    .education-pic {
+
+        width: 50%;
+        background-size: cover;
+        color: white;
+        padding-left: 20%;
+
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 60px;
+            padding-top: 0.1%;
+            padding-left: -2%;
+        }
+
+        p {
+            padding-top: 16%;
+            padding-left: 0.1%;
+            text-align: center;
+        }
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 1000px) and (max-width:1300px) {
+
+    body {
+        overflow-x: hidden;
+        font-size: 30px;
+    }
+
+    #women {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        padding: 0.1%;
+        margin-bottom: 12%;
+        width: 100%;
+    }
+
+
+    .place-women {
+
+        line-height: 1.5;
+        width: 90%;
+        padding-left: 10%;
+        margin-left: 5%;
+
+        p {
+            font-size: 30px;
+        }
+
+    }
+
+
+
+    .first-pic {
+
+        width: 100%;
+        color: white;
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 80px;
+            margin-top: 6%;
+            padding-top: 25%;
+        }
+
+        p {
+
+            text-align: center;
+            width: 60%;
+            font-size: 35px;
+        }
+
+    }
+
+
+    #tradition {
+
+        padding: 2px;
+        margin-left: 10%;
+        position: relative;
+        gap: 5%;
+        flex-direction: column;
+        line-height: 1.6;
+        margin: auto;
+
+
+    }
+
+    .cultural-beliefs {
+        line-height: 1.5;
+        width: 94%;
+        padding: 3%;
+        background-color: #75392c;
+        color: white;
+
+        align-items: center;
+
+        p {
+            margin-bottom: 3%;
+            padding-left: 2%;
+            font-size: 30px;
+
+        }
+
+    }
+
+    .culture-background {
+        height: 120vh;
+        width: 100%;
+        margin-left: 0.1%;
+
+        h2 {
+            align-items: center;
+            font-size: 80px;
+        }
+
+        p {
+            font-size: 35px;
+        }
+
+    }
+
+
+    #marriage {
+
+        padding: 0.2px;
+        background-color: white;
+        gap: 5%;
+        margin-top: 5%;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-left: 0.1%;
+
+    }
+
+    .marriage-text {
+        line-height: 1.4;
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 0.2%;
+
+        p {
+            font-size: 32px;
+
+        }
+    }
+
+    .early {
+        width: 100%;
+        background-size: cover;
+        color: white;
+
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 120px;
+        }
+
+        p {
+            padding-top: 16%;
+            padding-left: 15%;
+            text-align: center;
+            width: 60%;
+            font-size: 35px;
+        }
+    }
+
+    #education {
+
+        width: 100%;
+        margin-top: 5%;
+        flex-direction: column;
+        margin-right: 30%;
+
+    }
+
+
+    p {
+        margin-left: 0.2%;
+        margin-right: 0.2%;
+        font-size: 30px;
+
+
+    }
+
+
+    .education-text {
+        width: 70%;
+        padding-left: 5%;
+        align-items: center;
+    }
+
+
+    .education-pic {
+        width: 50%;
+        background-size: cover;
+        color: white;
+        padding-left: 20%;
+
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 60px;
+            padding-top: 0.1%;
+            padding-left: -2%;
+        }
+
+        p {
+            padding-top: 16%;
+            padding-left: 0.1%;
+            text-align: center;
+        }
+    }
+
+
+}
