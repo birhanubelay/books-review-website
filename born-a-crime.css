@@ -378,7 +378,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 486px) {
+@media only screen and (max-width: 760px) {
   
 .square{
     display: none;
@@ -644,270 +644,35 @@ width: 70%;
     
 }
 
-@media screen and (min-width:487px) {
-    .square{
-        display: none;
-    }
-    .square-humour{
-        display: none;
-    }
-    .shape{
-        display: none;
-    }
-    
-    
-    .upcomming {
-    margin-bottom: 6%;
-    margin-top: 6%;
-    
-        img {
-            width: 110px;
-            height: 100px;
-            padding-left: 5%; 
-        }
-        .upcomming_books{
-            border: 1px solid black;
-            display: flex;
-    flex-wrap: wrap;
-        }
-    
-        marquee {
-            background-image: linear-gradient(rgba(22, 15, 15, 0.5), rgba(0, 0, 0, 0.603)), url(pics/whiteshelf.jpg);
-            margin-bottom: 5%;
-            color: white;
-            font-size: 150%;
-            padding: 1%;
-            width: 100%;
-        }
-    
-    }
-    
-    #core-issue {
-       
-        font-size: 20px;
-        margin-top: 5%;
-      padding-left: 32%;
-    }
-    .core {
-        font-family: poppins;
-        display: flex;
-       flex-direction: column;
-        gap: 8%;
-        align-items: center;
-        margin-top: 6%;
-        margin-left: 5%;
-    
-        p {
-            font-size: 10px;
-            top: 10%;
-        }
-        
-    }
-   
-    
-    
-    body h2{
-        font-family: poppins;
-        text-align: center;
-        font-size: 5px;
-        margin-top: 5%;
-        color:white;
-    }
-    #issue{
-        margin-left: -5%;
-        padding-top: 8%;
-        width: 70%;
-        margin-top: 2%;
-    height: 30px;
-        p{
-            margin-top: -5%;
-            font-size: 13px;
-           
-        }
-    }
-    #core-issue{
-        margin-left: -20%;
-        font-size:35px;
-    }
-    .protagonist_cont {
-        display: flex;
+@media only screen and (min-width:761px) and(max-width:1000px) {
+
+    .protagonist_cont{
         flex-direction: column;
     }
-        .protagonist {
-            width: 95%;
-            margin-left: 1%;
+    .square{
+display: none;
+    }
+    .humour-square{
+ display: none;
+    }
+    .shape{
+        height: 150%;
+        width: 140%;
+    }
+    .protagonist_pic{
+width: 50%;
+    }
+    .protagonist{
+        p{
+            font-size: 200px;
         }
-    
-        h1 {
-            font-size: 130%;
-    padding-right: 15%;
-    margin-left: -1%;
-    padding-left: 15%;
-    width: 70%;
-    
-        }
-    
-        .protagonist_pic {
-            width: 90%;
-        }
-        .protagonist_pic img{
-            width: 90%;
-        }
-    
-        .protagonist_pic p {
-            width: 100%;
-            margin-left: 10%;
-           
-        }
-    
-        .outside_container {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-    
-        .outsider {
-            width: 109%;
-            text-align: left;
-            margin-left: 5%;
-        }
-    
-        .outsider h1 {
-            text-align: right;
-            font-size: 100%;
-       
-        }
-    
-        .outsider_pic {
-            width: 90%;
-            margin-top: -2%;
-        }
-       
-        
-    
-        .continuation {
-            width: 91%;
-            padding-top: 15%;
-        }
-    
-        .humour_container {
-            display: flex;
-            flex-direction: column;
-        }
-    
-        .humour_pic {
-            width: 90%;
-        }
-    
-        .humour {
-            width: 106%;
-            padding-left: 0%;
-        }
-    
-        .humor h1 {
-            text-align: left;
-        }
-    
-        .thinking_container {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-    
-        .thinking {
-            width: 100%;
-            padding-left: 0%;
-        }
-    
-        .thinking_pic {
-            width: 90%;
-            margin-top: -7%;
-        }
-    
-        .humour_continuation {
-            width: 90%;
-            padding-top: 15%;
-        }
-    
-        .love_container {
-            display: flex;
-            flex-direction: column-reverse;
-    
-        }
-    
-        .love {
-            width: 100%;
-        }
-        .family-pic p{
-            
-            width: 100%;
-            margin-left: -5%;
-        }
-        .family-pic img{
-            width: 100%;
-        }
-        form {
-         width: 100%;
-         height: 10%;
-         border-radius: 0%;
-        }
-        
-        .comment {
-           width: 50%; 
-        }
-        
-        input {
-            width: 90%;
-            min-height: 30px;
-            border-radius: 2px;
-            border: 0.15px;
-        }
-        
-        #submit_button {
-            background: none;
-            width: 91.5%;
-            border: none;
-            padding: 12px 8px;
-            background-color: rgb(158, 104, 131);
-            margin: 0px 0;
-            text-align: center;
-            border-radius: 6px;
-            
-    
-        }
-     
-        
-        #feedback {
-            border-radius: 2px;
-            height: 30px;
-    
-        }
-        
-        .footer {
-          width: 90%;
-          height: 100%;
-          padding-left: 0.3%;
-        padding-right: 0.3%;
-        margin-left: 0%;
-            h2 {
-                margin-bottom: 3%;
-            }
-        }
-        
-        .footer-detail {
-            display: inline;
-        }
-        
-        .footer {
-            p {
-                line-height: 0.5;
-            }
-        
-            h2 {
-                margin-bottom: 10%;
-            }
-            a{
-                text-decoration: none;
-                color: white;
-            }
-        }
+
+    }
+    #quote{
+        width: 50%;
+    }
+    .outsider{
+        border: 1px solid black;
+    }
 
 }
