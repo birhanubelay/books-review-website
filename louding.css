@@ -1,0 +1,316 @@
+@font-face {
+    font-family: poppins;
+    src: url(poppins/Poppins-Regular.ttf);
+}
+body{
+    overflow-x: hidden;
+}
+.about-page{
+    background-color:black;
+    top:0;
+    width:100%;
+}
+.nav-bar{
+    width:80%;
+    display: flex;
+   
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin:auto;
+}
+.nav-bar a{
+    text-decoration: none;
+    color:white;
+    padding-left: 10%;
+    font-family:poppins;
+    font-size: 19px;
+}
+.text{
+
+    display: flex;
+}
+.text h1{
+    color: rgb(184, 116, 28);
+}
+.nav-contents {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 140px;
+    z-index: 1;
+    padding:2%;
+    border-radius:25px;
+    height:230px;
+    line-height: 0.7;
+  }
+  .nav-contents hr{
+    color: rgb(51, 47, 47);
+    width:85%;
+    margin: auto;
+  }
+  .nav-contents a {
+    float: none;
+    color:white;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+  }
+  .nav-contents a:hover {
+    color:rgb(37, 36, 36);
+  }
+  .content:hover .nav-contents {
+    display: block;
+  }
+
+.about-author{
+    width:75%;
+    color:black;
+    margin:auto;
+    line-height: 2;
+    margin-top:8%;
+    align-items: center;
+    
+
+    p{
+        width:80%;
+        font-family: poppins;
+    }
+    #abi{
+        width: 500px;   
+        margin-top: 20%;
+           }
+
+}
+#name{
+    font-size: 20px;
+    position: absolute;
+    left: 1200px;
+}
+.synopsis{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/aduni.jpg);
+    background-repeat: no-repeat;
+    width:75%;
+    border-radius: 30px;
+    margin: auto;
+    background-size: cover;
+    height:60vh;
+    margin-top: 5%;
+}
+.synopsis-detail{
+    width:40%;
+    margin-left: 20%;
+    padding-top: 10%;
+    color:white;
+    line-height: 1.8;
+}
+
+
+@media only screen and (max-width:750px){
+    .summary{
+        width:100%;
+        margin-top:10%;
+        height:10hv;
+    }
+    .about-author{
+        font-size: xx-small;
+    }
+    #abi{
+        width:40%;
+        
+    }
+    .nav-bar{
+        width:100%;
+    }
+    .nav-bar a{
+        font-size: xx-small;
+        padding-left: 5%;
+    }
+
+    .synopsis{
+        width:100%;
+        height:70vh;
+    }
+    .synopsis-detail{
+        width:90%;
+        margin:0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .text{
+        font-size: 70%;
+        padding:0;
+        margin: 0;
+        
+    
+        p{
+            width:80%;
+            font-family: poppins;
+        }
+        #abi{
+            width:80%;
+               }
+    
+    }
+    #name{
+        font-size: 20px;
+        position: absolute;
+        left: 40%;
+    }
+
+    .text{
+
+        flex-direction: column;
+        width: 140%;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+}
+
+
+@media only screen and (min-width:751px) and (max-width:999px){
+    .summary{
+        width:100%;
+        margin-top:10%;
+        height:10hv;
+    }
+    .about-author{
+        font-size: xx-small;
+    }
+    #abi{ 
+       
+        width:20%;
+        position:relative;
+        right:5%;
+     
+    }
+    .nav-bar{
+        width:100%;
+   gap:8%;
+        padding: 1%;
+    }
+    .nav-bar a{
+        font-size: medium;
+        padding-left: 1%;
+    }
+
+    .synopsis{
+        width:100%;
+        height:60vh;
+    }
+    .synopsis-detail{
+        width:90%;
+        margin:0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .text{
+        font-size: 70%;
+        padding:0;
+        margin: 0;
+        
+    
+        p{
+            width:80%;
+            font-family: poppins;
+            margin-left: -6%;
+        }
+        #abi{
+            width:80%;
+               }
+    
+    }
+    #name{
+        font-size: 20px;
+        position: absolute;
+        left: 40%;
+    }
+
+    .text{
+
+        flex-direction: column;
+        width: 140%;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+}
+
+
+
+@media only screen and (min-width:1000px) and (max-width:1300px){
+    body{
+        overflow-x: hidden;
+    }
+    .summary{
+        width:100%;
+        margin-top:10%;
+        height:10hv;
+    }
+    .about-author{
+        font-size: 200%;
+    }
+    #abi{ 
+       
+        width:20%;
+        position:relative;
+        right:5%;
+     
+    }
+    .nav-bar{
+        width:100%;
+   gap:8%;
+        padding: 1%;
+    }
+    .nav-bar a{
+        font-size: 150%;
+        padding-left: 1%;
+    }
+
+    .synopsis{
+        width:100%;
+        height:60vh;
+    }
+    .synopsis-detail{
+        width:90%;
+        margin:0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .text{
+        font-size: 70%;
+        padding:0;
+        margin: 0;
+        
+    
+        p{
+            width:80%;
+            font-family: poppins;
+            margin-left: -6%;
+            font-size: 30px;
+        }
+        #abi{
+            width:80%;
+               }
+    
+    }
+    #name{
+        font-size: 20px;
+        position: absolute;
+        left: 40%;
+    }
+
+    .text{
+
+        flex-direction: column;
+        width: 140%;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+}
