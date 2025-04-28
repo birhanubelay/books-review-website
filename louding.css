@@ -1,0 +1,276 @@
+body {
+    h1 , .poster{
+text-align: center;
+margin-top: 3%;
+    }
+    p{
+        text-align: center;
+        margin-top: 3%;
+        font-size: 20px;
+    }
+    overflow-x: hidden;
+
+}
+.merch{
+    display:flex;
+    margin-top: 7%;
+    gap: 80px;
+    padding-left: 10%;
+
+    p{
+      font-size: 20px;
+    }
+}
+.t-shirt img{
+    width: 500px;
+    height:500px;
+    
+}
+.t-shirt p{
+    padding-top: 14%;
+    font-size: 20px;
+}
+.book-mark {
+    margin-left: 9%;
+    width: 540px;
+    p{
+        font-size: 20px;  
+    }
+
+}
+.poster img{
+    height: 500px;
+    width: 700px;
+}
+.mug p{
+    padding-top: 14%;  
+    font-size: 20px;
+}
+.mark{
+    display: flex;
+    gap: 10%;
+}
+.read{
+    margin-top: 15%;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.end-page{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/whiteshelf.jpg);
+    color: white;
+}
+.copy-right{
+    text-align: center;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    i{
+        background-color: none;
+    }
+}
+.footer {
+    margin: auto;
+    margin-top: 5%;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    color: white;
+    gap: 10%;
+    line-height: 1.2;
+    padding: 3%;
+    font-size: 120%;
+    padding-left: 15%;
+    margin-bottom: 1%;
+    h2 {
+        margin-bottom: 3%;
+    }
+}
+.footer-detail {
+    display: inline;
+}
+.footer {
+    p {
+        line-height: 0.5;
+    }
+    h2 {
+        margin-bottom: 10%;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+@media only screen  and (max-width: 487px) {
+    body {
+        h1 , .poster{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 15px;
+        }
+        p{
+            text-align: center;
+            margin-top: 3%;
+            font-size: 14px;
+        }
+        overflow-x: hidden;
+        margin: 0%;
+    
+    }
+    .merch{
+        display:flex;
+        flex-direction: column;
+        margin-top: 0%;
+        gap: 8px;
+        padding-left: 3%;
+    
+        p{
+          font-size: 15px;
+        }
+    }
+    .t-shirt img{
+        width: 310px;
+        height:250px;
+        margin-left: 15px;
+        
+    }
+    .t-shirt p{
+        padding-top: 4%;
+        font-size: 15px;
+    }
+    .book-mark {
+        padding-left: 14%;
+        width: 240px;
+        p{
+            font-size: 15px;  
+        }
+        img{
+            width: 220px;
+        }
+    
+    }
+    .poster img{
+        height: 300px;
+        width: 350px;
+    }
+    .case img{
+        height: 250px;
+        margin-left: 90px;
+    }
+    .mug p{
+        padding-top: 14%;  
+        font-size: 15px;
+    }
+    .mug img{
+        width: 230px;
+        margin-left: 50px;
+    }
+    .mark{
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+      
+    }
+    .read{
+        margin-top: 15%;
+        text-align: center;
+        font-size: 10px;
+        
+    }
+    .end-page{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/whiteshelf.jpg);
+        color: white;
+        
+    }
+    .copy-right{
+        text-align: center;
+        
+        padding-top: 0.2%;
+        padding-bottom: 0.2%;
+        i{
+            background-color: none;
+        }
+        p{
+            font-size: 3px;
+        }
+    }
+    .footer {
+        margin: auto;
+        margin-top: 5%;
+        height: 100px;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        gap: 5%;
+        line-height: 1.2;
+        padding: 3%;
+        font-size: 50%;
+        text-align: center;
+        padding-left: 2%;
+        margin-bottom: 1%;
+        h2 {
+            margin-bottom: 3%;
+        }
+        
+    }
+    .footer-detail {
+        display: inline;
+    }
+    .footer {
+        p {
+            line-height: 0.5;
+            
+        }
+        h2 {
+            margin-bottom: 10%;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    } 
+}
+@media only screen and (min-width: 488px){
+    body{
+        margin:0% ;
+    }
+    .merch{
+        display:flex;
+        margin-top: 0%;
+        gap: 8px;
+        padding-left: 3%;
+    
+        
+        img{
+            width: 200px;
+            height: 250px;
+        }
+    }
+    .mark {
+        
+        img{
+            width: 300px;
+            
+        }
+        
+        gap: 20px;
+    }
+    .footer{
+        
+        margin: 0%;
+        margin-top: 5%;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        gap: 15%;
+        line-height: 1.2;
+        padding: 3%;
+        font-size: 50%;
+        text-align: center;
+        padding-left: 5%;
+        margin-bottom: 1%;
+
+    }
+}
