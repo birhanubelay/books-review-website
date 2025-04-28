@@ -1,4 +1,4 @@
-body {
+#assets{
     h1 , .poster{
 text-align: center;
 margin-top: 3%;
@@ -69,10 +69,10 @@ margin-top: 3%;
     }
 }
 .footer {
-    margin: auto;
+    margin: 0%;
     margin-top: 5%;
     height: 150px;
-    width: 100%;
+    width: 130%;
     display: flex;
     color: white;
     gap: 10%;
@@ -81,6 +81,7 @@ margin-top: 3%;
     font-size: 120%;
     padding-left: 15%;
     margin-bottom: 1%;
+
     h2 {
         margin-bottom: 3%;
     }
@@ -101,7 +102,7 @@ margin-top: 3%;
     }
 }
 @media only screen  and (max-width: 487px) {
-    body {
+    #assets{
         h1 , .poster{
     text-align: center;
     margin-top: 5%;
@@ -230,10 +231,8 @@ margin-top: 3%;
         }
     } 
 }
-@media only screen and (min-width: 488px){
-    body{
-        margin:0% ;
-    }
+/* @media only screen and (min-width: 488px){
+   
     .merch{
         display:flex;
         margin-top: 0%;
@@ -273,4 +272,4 @@ margin-top: 3%;
         margin-bottom: 1%;
 
     }
-}
+} */
