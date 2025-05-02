@@ -1,0 +1,1372 @@
+@font-face {
+    font-family: poppins;
+    src: url(poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: macondo;
+    src: url(Macondo_Swash_Caps/MacondoSwashCaps-Regular.ttf);
+}
+body{
+    overflow-x: hidden;
+}
+.about-page{
+    background-color:black;
+    top:0;
+    width:100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-bar{
+    width:80%;
+    display: flex;
+   
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin:auto;
+}
+.nav-bar a{
+    text-decoration: none;
+    color:white;
+    padding-left: 10%;
+    font-family:poppins;
+    font-size: 19px;
+}
+.text{
+
+    display: flex;
+}
+.text h1{
+    color: rgb(184, 116, 28);
+}
+.nav-contents {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 140px;
+    z-index: 1;
+    padding:2%;
+    border-radius:25px;
+    height:230px;
+    line-height: 0.7;
+  }
+  .nav-contents hr{
+    color: rgb(51, 47, 47);
+    width:85%;
+    margin: auto;
+  }
+  .nav-contents a {
+    float: none;
+    color:white;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+  }
+  .nav-contents a:hover {
+    color:rgb(37, 36, 36);
+  }
+  .content:hover .nav-contents {
+    display: block;
+  }
+
+#about-author{
+    width:75%;
+    color:black;
+    margin:auto;
+    line-height: 2;
+    margin-top:8%;
+    align-items: center;
+    
+
+    p{
+        width:80%;
+        font-family: poppins;
+    }
+    #abi{
+        width: 500px;   
+        margin-top: 20%;
+           }
+
+}
+#name{
+    font-size: 20px;
+    position: absolute;
+    left: 1200px;
+}
+#synopsis{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/aduni.jpg);
+    background-repeat: no-repeat;
+    width:75%;
+    border-radius: 30px;
+    margin: auto;
+    background-size: cover;
+    height:60vh;
+    margin-top: 5%;
+}
+.synopsis-detail{
+    width:40%;
+    margin-left: 20%;
+    padding-top: 10%;
+    color:white;
+    line-height: 1.8;
+}
+
+
+@media only screen and (max-width:750px){
+    .summary{
+        width:100%;
+        margin-top:10%;
+        height:10hv;
+    }
+    #about-author{
+        font-size: xx-small;
+    }
+    #abi{
+        width:40%;
+        
+    }
+    .nav-bar{
+        width:100%;
+    }
+    .nav-bar a{
+        font-size: xx-small;
+        padding-left: 5%;
+    }
+
+    #synopsis{
+        width:100%;
+        height:70vh;
+    }
+    .synopsis-detail{
+        width:90%;
+        margin:0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .text{
+        font-size: 70%;
+        padding:0;
+        margin: 0;
+        
+    
+        p{
+            width:80%;
+            font-family: poppins;
+        }
+        #abi{
+            width:80%;
+               }
+    
+    }
+    #name{
+        font-size: 20px;
+        position: absolute;
+        left: 40%;
+    }
+
+    .text{
+
+        flex-direction: column;
+        width: 140%;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+}
+
+
+@media only screen and (min-width:751px) and (max-width:999px){
+    .summary{
+        width:100%;
+        margin-top:10%;
+        height:10hv;
+    }
+    #about-author{
+        font-size: xx-small;
+    }
+    #abi{ 
+       
+        width:20%;
+        position:relative;
+        right:5%;
+     
+    }
+    .nav-bar{
+        width:100%;
+   gap:8%;
+        padding: 1%;
+    }
+    .nav-bar a{
+        font-size: medium;
+        padding-left: 1%;
+    }
+
+    #synopsis{
+        width:100%;
+        height:60vh;
+    }
+    .synopsis-detail{
+        width:90%;
+        margin:0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .text{
+        font-size: 70%;
+        padding:0;
+        margin: 0;
+        
+    
+        p{
+            width:80%;
+            font-family: poppins;
+            margin-left: -6%;
+        }
+        #abi{
+            width:80%;
+               }
+    
+    }
+    #name{
+        font-size: 20px;
+        position: absolute;
+        left: 40%;
+    }
+
+    .text{
+
+        flex-direction: column;
+        width: 140%;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+}
+
+
+
+@media only screen and (min-width:1000px) and (max-width:1300px){
+    body{
+        overflow-x: hidden;
+    }
+    .summary{
+        width:100%;
+        margin-top:10%;
+        height:10hv;
+    }
+    #about-author{
+        font-size: 200%;
+    }
+    #abi{ 
+       
+        width:20%;
+        position:relative;
+        right:5%;
+     
+    }
+    .nav-bar{
+        width:100%;
+   gap:8%;
+        padding: 1%;
+    }
+    .nav-bar a{
+        font-size: 150%;
+        padding-left: 1%;
+    }
+
+    #synopsis{
+        width:100%;
+        height:60vh;
+    }
+    .synopsis-detail{
+        width:90%;
+        margin:0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .text{
+        font-size: 70%;
+        padding:0;
+        margin: 0;
+        
+    
+        p{
+            width:80%;
+            font-family: poppins;
+            margin-left: -6%;
+            font-size: 30px;
+        }
+        #abi{
+            width:80%;
+               }
+    
+    }
+    #name{
+        font-size: 20px;
+        position: absolute;
+        left: 40%;
+    }
+
+    .text{
+
+        flex-direction: column;
+        width: 140%;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+}
+
+#assets{
+    h1 ,.poster{
+text-align: center;
+margin-top: 3%;
+font-family: Macondo;
+    }
+    p{
+        text-align: center;
+        margin-top: 3%;
+        font-size: 20px;
+    }
+    overflow-x: hidden;
+
+}
+.merch{
+    display:flex;
+    margin-top: 7%;
+    gap: 80px;
+    padding-left: 10%;
+
+    p{
+      font-size: 20px;
+    }
+}
+.t-shirt img{
+    width: 500px;
+    height:500px;
+    
+}
+.t-shirt p{
+    padding-top: 14%;
+    font-size: 20px;
+}
+.book-mark {
+    margin-left: 9%;
+    width: 540px;
+    p{
+        font-size: 20px;  
+    }
+
+}
+.poster img{
+    height: 500px;
+    width: 700px;
+}
+.mug p{
+    padding-top: 14%;  
+    font-size: 20px;
+}
+.mark{
+    display: flex;
+    gap: 10%;
+}
+.read{
+    margin-top: 15%;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.end-page{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/whiteshelf.jpg);
+    color: white;
+}
+.copy-right{
+    text-align: center;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    i{
+        background-color: none;
+    }
+}
+.footer {
+    margin: 0%;
+    margin-top: 5%;
+    height: 150px;
+    width: 130%;
+    display: flex;
+    color: white;
+    gap: 10%;
+    line-height: 1.5;
+    padding: 3%;
+    font-size: 120%;
+    padding-left: 15%;
+    margin-bottom: 1%;
+
+    h2 {
+        margin-bottom: 3%;
+    }
+}
+.footer-detail {
+    display: inline;
+}
+.footer {
+    p {
+        line-height: 0.5;
+    }
+    h2 {
+        margin-bottom: 10%;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+@media only screen  and (max-width: 487px) {
+    #assets{
+        h1 , .poster{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 15px;
+        }
+        p{
+            text-align: center;
+            margin-top: 3%;
+            font-size: 14px;
+        }
+        overflow-x: hidden;
+        margin: 0%;
+    
+    }
+    .merch{
+        display:flex;
+        flex-direction: column;
+        margin-top: 0%;
+        gap: 8px;
+        padding-left: 3%;
+    
+        p{
+          font-size: 15px;
+        }
+    }
+    .t-shirt img{
+        width: 310px;
+        height:250px;
+        margin-left: 15px;
+        
+    }
+    .t-shirt p{
+        padding-top: 4%;
+        font-size: 15px;
+    }
+    .book-mark {
+        padding-left: 14%;
+        width: 240px;
+        p{
+            font-size: 15px;  
+        }
+        img{
+            width: 220px;
+        }
+    
+    }
+    .poster img{
+        height: 300px;
+        width: 350px;
+    }
+    .case img{
+        height: 250px;
+        margin-left: 90px;
+    }
+    .mug p{
+        padding-top: 14%;  
+        font-size: 15px;
+    }
+    .mug img{
+        width: 230px;
+        margin-left: 50px;
+    }
+    .mark{
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+      
+    }
+    .read{
+        margin-top: 15%;
+        text-align: center;
+        font-size: 10px;
+        
+    }
+    .end-page{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/whiteshelf.jpg);
+        color: white;
+        
+    }
+    .copy-right{
+        text-align: center;
+        
+        padding-top: 0.2%;
+        padding-bottom: 0.2%;
+        i{
+            background-color: none;
+        }
+        p{
+            font-size: 3px;
+        }
+    }
+    .footer {
+        margin: auto;
+        margin-top: 5%;
+        height: 100px;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        gap: 5%;
+        line-height: 1.2;
+        padding: 3%;
+        font-size: 50%;
+        text-align: center;
+        padding-left: 2%;
+        margin-bottom: 1%;
+        h2 {
+            margin-bottom: 3%;
+        }
+        
+    }
+    .footer-detail {
+        display: inline;
+    }
+    .footer {
+        p {
+            line-height: 0.5;
+            
+        }
+        h2 {
+            margin-bottom: 10%;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    } 
+}
+
+
+#women {
+
+    padding: 2px;
+    background-color: white;
+    position: relative;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15%;
+
+}
+
+
+.place-women {
+    line-height: 1.5;
+    width: 70%;
+    margin-right: 5%;
+
+    padding: 2%;
+    background-color: #75392c;
+    color: white;
+}
+
+
+.paragraphs {
+    box-shadow: 15px 2px 15px 7px #75392c;
+    color: #75392c;
+    line-height: 1.5;
+    width: 93%;
+    background-color: white;
+    margin-top: -12%;
+    position: relative;
+    padding: 2%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+
+}
+
+
+
+.first-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/a7b5e7b0e7acac359f40ca043a85046c.jpg);
+    height: 100vh;
+    width: 50%;
+    background-size: cover;
+    color: white;
+
+    h2 {
+        text-align: center;
+        align-items: center;
+        font-size: 80px;
+        margin-top: 6%;
+        padding-top: 25%;
+    }
+
+    p {
+        padding-top: 16%;
+        padding-left: 15%;
+        text-align: center;
+        width: 60%;
+    }
+
+}
+
+#tradition {
+
+    padding: 2px;
+    margin-left: 10%;
+    position: relative;
+    gap: 5%;
+    display: flex;
+    line-height: 1.6;
+    margin: auto;
+
+
+}
+
+.cultural-beliefs {
+    line-height: 1.5;
+    width: 40%;
+    padding: 3%;
+    background-color: #75392c;
+    color: white;
+
+    align-items: center;
+
+    p {
+        margin-bottom: 3%;
+    }
+
+}
+
+.culture-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/34fd08efd7a4628f25755d354c0d8875.jpg);
+    height: 120vh;
+    width: 40%;
+    background-size: cover;
+    color: white;
+    margin-left: 5%;
+
+    h2 {
+        text-align: center;
+        align-items: center;
+        font-size: 80px;
+        margin-top: 6%;
+        padding-top: 25%;
+    }
+
+    p {
+        padding-top: 16%;
+        padding-left: 15%;
+        text-align: center;
+        width: 60%;
+    }
+}
+
+#marriage {
+
+    padding: 2px;
+    background-color: white;
+    gap: 5%;
+    margin-top: 5%;
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+
+    justify-content: space-between;
+}
+
+.marriage-text {
+    line-height: 1.4;
+    width: 60%;
+    border: 1px solid #75392c;
+    box-shadow: 15px 2px 15px 7px #75392c;
+    color: #1b1d08;
+
+
+}
+
+.early {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/6b66cd920778b916e1154a63edfc511a.jpg);
+    height: 100vh;
+    width: 50%;
+    background-size: cover;
+    color: white;
+
+
+    h2 {
+        text-align: center;
+        align-items: center;
+        font-size: 80px;
+        margin-top: 6%;
+        padding-top: 25%;
+    }
+
+    p {
+        padding-top: 16%;
+        padding-left: 15%;
+        text-align: center;
+        width: 60%;
+    }
+}
+
+
+#education {
+
+    padding: 2px;
+    position: relative;
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    gap: 5%;
+    margin-left: 10%;
+}
+
+
+p {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 1.2rem;
+
+
+}
+
+
+.education-text {
+
+    line-height: 1.5;
+    width: 80%;
+    padding: 5%;
+    background-color: #75392c;
+    color: white;
+
+    align-items: center;
+
+    p {
+        margin-bottom: 3%;
+
+    }
+}
+
+
+.education-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/7b9472450941ded58b27a69bf92605c1.jpg);
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    padding-right: 10%;
+
+
+    h2 {
+        text-align: center;
+        align-items: center;
+        font-size: 80px;
+        padding-top: 26%;
+        padding-left: 15%;
+    }
+
+    p {
+        padding-top: 16%;
+        padding-left: 15%;
+        text-align: center;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 750px) {
+
+    #women {
+        flex-direction: column-reverse;
+
+    }
+
+
+    .place-women {
+
+        line-height: 1.5;
+        width: 100%;
+        margin-right: 5%;
+    }
+
+
+
+    .first-pic {
+
+        width: 100%;
+        color: white;
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 60px;
+            margin-top: 6%;
+            padding-top: 25%;
+        }
+
+        p {
+
+            text-align: center;
+            width: 60%;
+        }
+
+    }
+
+    .paragraphs {
+        box-shadow: 15px 2px 15px 7px #75392c;
+        color: #75392c;
+        line-height: 1.5;
+        width: 93%;
+        background-color: white;
+        margin-top: -12%;
+        position: relative;
+        padding: 2%;
+        margin-bottom: 5%;
+        margin-left: 2%;
+
+    }
+
+    #tradition {
+
+        padding: 2px;
+        margin-left: 10%;
+        position: relative;
+        gap: 5%;
+        flex-direction: column;
+        line-height: 1.6;
+        margin: auto;
+
+
+    }
+
+    .cultural-beliefs {
+        line-height: 1.5;
+        width: 100%;
+        padding: 3%;
+        background-color: #75392c;
+        color: white;
+
+        align-items: center;
+
+        p {
+            margin-bottom: 3%;
+        }
+
+    }
+
+    .culture-background {
+        height: 120vh;
+        width: 100%;
+        margin-left: 0.1%;
+
+        h2 {
+            align-items: center;
+            font-size: 60px;
+        }
+
+
+    }
+
+
+    #marriage {
+
+        padding: 0.2px;
+        background-color: white;
+        gap: 5%;
+        margin-top: 5%;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-left: 0.1%;
+
+    }
+
+    .marriage-text {
+        line-height: 1.4;
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 0.2%;
+
+
+    }
+
+    .early {
+        width: 100%;
+        background-size: cover;
+        color: white;
+
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 60px;
+        }
+
+        p {
+            padding-top: 16%;
+            padding-left: 15%;
+            text-align: center;
+            width: 60%;
+        }
+    }
+
+    #education {
+
+        width: 100%;
+        margin-top: 5%;
+        flex-direction: column;
+
+    }
+
+
+    p {
+        margin-left: 0.2%;
+        margin-right: 0.2%;
+        font-size: 1.2rem;
+
+
+    }
+
+
+    .education-text {
+
+
+        width: 100%;
+        padding: 0.5%;
+        align-items: center;
+    }
+
+
+    .education-pic {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/7b9472450941ded58b27a69bf92605c1.jpg);
+        height: 60vh;
+        width: 100%;
+        background-size: cover;
+        color: white;
+        padding-left: -20%;
+
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 60px;
+            padding-top: 0.1%;
+            padding-left: -2%;
+        }
+
+        p {
+            padding-top: 16%;
+            padding-left: 0.1%;
+            text-align: center;
+        }
+    }
+
+
+}
+
+
+@media only screen and (min-width: 751px) and (max-width:999px) {
+    #women {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        padding: 0.1%;
+        margin-bottom: 12%;
+        width: 100%;
+    }
+
+
+    .place-women {
+
+        line-height: 1.5;
+        width: 90%;
+        padding-left: 10%;
+        margin-left: 5%;
+
+    }
+
+
+
+    .first-pic {
+
+        width: 100%;
+        color: white;
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 80px;
+            margin-top: 6%;
+            padding-top: 25%;
+        }
+
+        p {
+
+            text-align: center;
+            width: 60%;
+            font-size: 25px;
+        }
+
+    }
+
+    .paragraphs {
+        box-shadow: 15px 2px 15px 7px #75392c;
+        color: #75392c;
+        line-height: 1.5;
+        width: 93%;
+        background-color: white;
+        margin-top: -12%;
+        position: relative;
+        padding: 2%;
+        margin-bottom: 5%;
+        margin-left: 2%;
+
+    }
+
+    #tradition {
+
+        padding: 2px;
+        margin-left: 10%;
+        position: relative;
+        gap: 5%;
+        flex-direction: column;
+        line-height: 1.6;
+        margin: auto;
+
+
+    }
+
+    .cultural-beliefs {
+        line-height: 1.5;
+        width: 94%;
+        padding: 3%;
+        background-color: #75392c;
+        color: white;
+
+        align-items: center;
+
+        p {
+            margin-bottom: 3%;
+            padding-left: 2%;
+        }
+
+    }
+
+    .culture-background {
+        height: 120vh;
+        width: 100%;
+        margin-left: 0.1%;
+
+        h2 {
+            align-items: center;
+            font-size: 80px;
+        }
+
+
+    }
+
+
+    #marriage {
+
+        padding: 0.2px;
+        background-color: white;
+        gap: 5%;
+        margin-top: 5%;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-left: 0.1%;
+
+    }
+
+    .marriage-text {
+        line-height: 1.4;
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 0.2%;
+
+
+    }
+
+    .early {
+        width: 100%;
+        background-size: cover;
+        color: white;
+
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 60px;
+        }
+
+        p {
+            padding-top: 16%;
+            padding-left: 15%;
+            text-align: center;
+            width: 60%;
+        }
+    }
+
+    #education {
+
+        width: 100%;
+        margin-top: 5%;
+        flex-direction: column;
+        margin-right: 30%;
+
+    }
+
+
+    p {
+        margin-left: 0.2%;
+        margin-right: 0.2%;
+        font-size: 1.2rem;
+
+
+    }
+
+
+    .education-text {
+        width: 70%;
+        padding-left: 5%;
+        align-items: center;
+    }
+
+
+    .education-pic {
+
+        width: 50%;
+        background-size: cover;
+        color: white;
+        padding-left: 20%;
+
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 60px;
+            padding-top: 0.1%;
+            padding-left: -2%;
+        }
+
+        p {
+            padding-top: 16%;
+            padding-left: 0.1%;
+            text-align: center;
+        }
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 1000px) and (max-width:1300px) {
+
+    body {
+        overflow-x: hidden;
+        font-size: 30px;
+    }
+
+    #women {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        padding: 0.1%;
+        margin-bottom: 12%;
+        width: 100%;
+    }
+
+
+    .place-women {
+
+        line-height: 1.5;
+        width: 90%;
+        padding-left: 10%;
+        margin-left: 5%;
+
+        p {
+            font-size: 30px;
+        }
+
+    }
+
+
+
+    .first-pic {
+
+        width: 100%;
+        color: white;
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 80px;
+            margin-top: 6%;
+            padding-top: 25%;
+        }
+
+        p {
+
+            text-align: center;
+            width: 60%;
+            font-size: 35px;
+        }
+
+    }
+
+
+    #tradition {
+
+        padding: 2px;
+        margin-left: 10%;
+        position: relative;
+        gap: 5%;
+        flex-direction: column;
+        line-height: 1.6;
+        margin: auto;
+
+
+    }
+
+    .cultural-beliefs {
+        line-height: 1.5;
+        width: 94%;
+        padding: 3%;
+        background-color: #75392c;
+        color: white;
+
+        align-items: center;
+
+        p {
+            margin-bottom: 3%;
+            padding-left: 2%;
+            font-size: 30px;
+
+        }
+
+    }
+
+    .culture-background {
+        height: 120vh;
+        width: 100%;
+        margin-left: 0.1%;
+
+        h2 {
+            align-items: center;
+            font-size: 80px;
+        }
+
+        p {
+            font-size: 35px;
+        }
+
+    }
+
+
+    #marriage {
+
+        padding: 0.2px;
+        background-color: white;
+        gap: 5%;
+        margin-top: 5%;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-left: 0.1%;
+
+    }
+
+    .marriage-text {
+        line-height: 1.4;
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 0.2%;
+
+        p {
+            font-size: 32px;
+
+        }
+    }
+
+    .early {
+        width: 100%;
+        background-size: cover;
+        color: white;
+
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 120px;
+        }
+
+        p {
+            padding-top: 16%;
+            padding-left: 15%;
+            text-align: center;
+            width: 60%;
+            font-size: 35px;
+        }
+    }
+
+    #education {
+
+        width: 100%;
+        margin-top: 5%;
+        flex-direction: column;
+        margin-right: 30%;
+
+    }
+
+
+    p {
+        margin-left: 0.2%;
+        margin-right: 0.2%;
+        font-size: 30px;
+
+
+    }
+
+
+    .education-text {
+        width: 70%;
+        padding-left: 5%;
+        align-items: center;
+    }
+
+
+    .education-pic {
+        width: 50%;
+        background-size: cover;
+        color: white;
+        padding-left: 20%;
+
+
+        h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 60px;
+            padding-top: 0.1%;
+            padding-left: -2%;
+        }
+
+        p {
+            padding-top: 16%;
+            padding-left: 0.1%;
+            text-align: center;
+        }
+    }
+
+
+}
