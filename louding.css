@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: poppins;
     src: url(poppins/Poppins-Regular.ttf);
@@ -78,6 +79,8 @@ html{
     line-height: 2;
     margin-top:8%;
     align-items: center;
+    font-size: 120%;
+    font-family: poppins;
     
 
     p{
@@ -323,10 +326,10 @@ html{
 }
 
 #assets{
-    h1 ,.poster{
+    h1 , .poster{
 text-align: center;
-margin-top: 3%;
-font-family: Macondo;
+margin-top: 10%;
+margin-left: 5%;
     }
     p{
         text-align: center;
@@ -366,6 +369,7 @@ font-family: Macondo;
 .poster img{
     height: 500px;
     width: 700px;
+    margin-top: -5%;
 }
 .mug p{
     padding-top: 14%;  
@@ -426,9 +430,115 @@ font-family: Macondo;
         color: white;
     }
 }
+
+
+
+
+
+t* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+  }
+  
+  .page{
+    background: #fdfcfc;
+    color: #020202;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        margin-left: 47%;
+        margin-bottom: -80px;
+    }
+
+  
+    & .slide-container{
+      width: 50%;
+      color: white;
+    }
+ 
+  }
+  .container{
+   
+    align-items: center;
+    gap: 30px;
+
+    height: 100px;
+    padding: 30px;
+    padding-left: 450px;
+
+  }
+  
+  .top{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 300px;
+    
+  }
+  
+  .arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+    color: #020202;
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+    margin-bottom: 0%;
+  }
+  
+  .frame{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+   
+  }
+  
+  .slider{
+    display: flex;
+    width: 350vw;
+    transition: all 1s ease;
+    margin-top: 7%;
+    
+  }
+  .slide{
+    width: 60vm;
+    flex-shrink: 0;
+    padding: 3%;
+    padding-left: 100px;
+    /* border: black 1px solid; */
+  }
+  .slide p{
+    text-align: center;
+    padding-left: 5px;
+    font-size: 100%;
+    margin-left: -20px;
+    
+  }
+  
+  .testimonial {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+  }
+  hr{
+    margin-top: 200px;
+    width: 40%;
+    border: 1px solid ;
+  }
+
 @media only screen  and (max-width: 487px) {
     #assets{
-        h1 , .poster{
+        h1{
     text-align: center;
     margin-top: 5%;
     font-size: 15px;
@@ -441,6 +551,11 @@ font-family: Macondo;
         overflow-x: hidden;
         margin: 0%;
     
+    }
+    .poster{
+        text-align: center;
+        margin-top: 5%;
+        font-size: 15px;
     }
     .merch{
         display:flex;
