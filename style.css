@@ -82,8 +82,8 @@ body {
     /* left: 30%; */
 
     img {
-        height: 650px;
-        width: 25vw;
+        height: 300px;
+        width: 15vw;
         box-shadow: 14px 10px 18px -5px black;
         margin-top: 20%;
         list-style: 0.8;
@@ -193,33 +193,16 @@ h1 {
         color: white;
     }
 }
-
-.colored-border {
-    height: 400px;
-    width: 400px;
-    background-color: rgba(163, 98, 109, 0.712);
-    position: absolute;
-    top: 100%;
-    left: 95%;
-    border-radius: 120px;
-    rotate: -45deg;
+.trevor{
+    p{
+        font-size: 16px;
+    }
 }
-
-.shape {
-    border-radius: 80px;
-    rotate: 19deg;
-    height: 300px;
-    width: 250px;
-    position: absolute;
-    top: 50%;
-    margin-left: -5%;
-    left: 0;
-    z-index: -1;
-    background-color: #d3abc08a;
+.voice {
+    p{
+        font-size: 16px;
+    }
 }
-
-
-
 
 
 @media only screen and (max-width: 500px) {
@@ -567,8 +550,8 @@ h1 {
         font-size: 10px;
 
         img {
-            height: 250px;
-            width: 25vw;
+            height: 200px;
+            width: 5vw;
             box-shadow: 14px 10px 18px -5px black;
             margin-top: -60%;
             list-style: 0.8;
